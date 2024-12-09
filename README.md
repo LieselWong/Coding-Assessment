@@ -50,17 +50,26 @@ The LinkedList class also supports the following methods:
 - **reverse**  
   Reverses the order of nodes in the linked list, updating the `head` to the last node and the `tail` to the first node.
 
+### Example:
+
+```python
+from linked_list import LinkedList
+
+linked_list = LinkedList()
+        linked_list.append(10)
+        linked_list.append(20)
+        linked_list.append(30)
+        
+        linked_list.reverse()
+
+        linked_list.print_list()
+```
+
 
 ### Problem 2: Most Common Words
 
-To find the top 5 most common words in a paragraph, you can use the `get_top_5_words()` function.
-
-This function returns the top 5 most common words from the input. If a file path is provided, the function reads the content from the file. Otherwise, it treats the input as a plain paragraph. The function ignores punctuation, possessive forms (e.g., "word's"), and ensures that words containing numbers (e.g., "p53") are kept intact, while pure numbers (e.g., "53") are excluded.
-
 #### Function: `get_top_5_words(paragraph)`
-
-- **Description:**  
-  This function returns the top 5 most common words from the input. If a file path is provided, the function reads the content from the file. Otherwise, it treats the input as a plain paragraph. The function ignores punctuation, possessive forms (e.g., "word's"), and ensures that words containing numbers (e.g., "p53") are kept intact, while pure numbers (e.g., "53") are excluded.
+This function returns the top 5 most common words from the input. If a file path is provided, the function reads the content from the file. Otherwise, it treats the input as a plain paragraph. The function ignores punctuation, possessive forms (e.g., "word's"), and ensures that words containing numbers (e.g., "p53") are kept intact, while pure numbers (e.g., "53") are excluded.
 
 - **Parameters:**  
   - `paragraph` (str): A string that can either be:  
