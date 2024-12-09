@@ -14,10 +14,6 @@
 - **time**: For calculating the time taken to run a test case.
 - **os**: For handling file paths in relation to file names.
 
-## Setup Instructions
-
-1. Ensure that **Python 3.x** is installed on your system.
-
 ## Purpose
 
 This project provides the implementation and testing for two problems:
@@ -31,6 +27,8 @@ This project provides the implementation and testing for two problems:
 - **Description**: Given a paragraph of any size, find the top 5 most common words in the paragraph and print the passage along with the list of top 5 words.
 
 ## Usage Instructions
+Ensure that **Python 3.x** is installed on your system.
+
 ### Problem 1: Reverse a Linked List
 `class LinkedList()`
 
