@@ -109,7 +109,7 @@ To run the tests, ensure you are in the folder `Coding-Assessment` and run `pyth
 ## Troubleshooting
 
 ### Error: File not found
-If you're encountering a "file not found" error while testing with `lab_samples.txt`, ensure that the file is placed in the correct directory relative to the script. If necessary, use absolute paths or adjust the file lookup to point to the correct location.
+If you're encountering a "file not found" error while testing, ensure that the file exists. If necessary, use absolute paths or adjust the file lookup to point to the correct location.
 
 ### Error: ValueError when appending
 If you attempt to append an item that is not a valid data type (e.g., trying to append a string to a linked list), a `ValueError` will be raised. Ensure that only valid data types (such as integers or floats) are appended to the list.
