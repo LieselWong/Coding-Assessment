@@ -1,11 +1,3 @@
-''' 
-Problem 2: 
-Given a paragraph input of any size, find the top 5 most
-common words in the paragraph. 
-
-Print passage and list the top 5 words. 
-'''
-
 from collections import Counter
 import string
 

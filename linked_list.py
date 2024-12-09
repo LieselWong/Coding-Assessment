@@ -1,9 +1,3 @@
-''' 
-Problem 1: 
-Given a linked-list with integer values, reverse the linked list.
-Print out the reversed result
-'''
-
 # A class to represent a Node with a data and next attribute
 class Node:
     def __init__(self, data):
