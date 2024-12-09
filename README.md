@@ -55,6 +55,25 @@ The LinkedList class also supports the following methods:
 
 To find the top 5 most common words in a paragraph, you can use the `get_top_5_words()` function.
 
+This function returns the top 5 most common words from the input. If a file path is provided, the function reads the content from the file. Otherwise, it treats the input as a plain paragraph. The function ignores punctuation, possessive forms (e.g., "word's"), and ensures that words containing numbers (e.g., "p53") are kept intact, while pure numbers (e.g., "53") are excluded.
+
+#### Function: `get_top_5_words(paragraph)`
+
+- **Description:**  
+  This function returns the top 5 most common words from the input. If a file path is provided, the function reads the content from the file. Otherwise, it treats the input as a plain paragraph. The function ignores punctuation, possessive forms (e.g., "word's"), and ensures that words containing numbers (e.g., "p53") are kept intact, while pure numbers (e.g., "53") are excluded.
+
+- **Parameters:**  
+  - `paragraph` (str): A string that can either be:  
+    1. A paragraph of text, or  
+    2. A file path to a `.txt` file. If a file path is provided, the function attempts to read the content of the file.
+
+- **Returns:**  
+  A list of the top 5 most common words in the paragraph or file, in the form of a list of tuples. Each tuple contains a word (string) and its count (integer) representing the number of times it appears. The list is sorted in descending order by word frequency. If there are fewer than 5 distinct words, the list will contain fewer entries.
+
+- **Raises:**  
+  - `FileNotFoundError`: If the file at the given path cannot be found.  
+  - `IOError`: If there is an error while reading the file.
+
 ### Example:
 
 ```python
