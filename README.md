@@ -32,12 +32,12 @@ This project provides the implementation and testing for two problems:
 
 ## Usage Instructions
 ### Problem 1: Reverse a Linked List
-`class LinkedList()`
-returns an empty singly linked list with the following attributes: 
-<b> head </b> 
-  First object in list. _None_ if list is empty
-<b> tail </b> 
-  Last object in list. _None_ if list is empty
+- `class LinkedList()`
+- returns an empty singly linked list with the following attributes:
+- <b> head </b>
+- First object in list. _None_ if list is empty
+- <b> tail </b>
+- Last object in list. _None_ if list is empty
 
 ### Problem 2: Most Common Words
 
