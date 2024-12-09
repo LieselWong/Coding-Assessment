@@ -26,7 +26,8 @@ This project provides the implementation and testing for two problems:
 
 ## Setup Instructions
 
-1. Ensure that **Python 3.x** is installed on your system. No additional dependencies are required unless specified in your `requirements.txt` file.
+1. Ensure that **Python 3.x** is installed on your system.
+
 
 ## Usage Instructions
 
@@ -40,3 +41,12 @@ from most_common_words import get_top_5_words
 paragraph = "Python is an interpreted high-level programming language..."
 top_5_words = get_top_5_words(paragraph)
 print(top_5_words)
+```
+
+## Testing Instructions
+To ensure the correct functionality of your code, use the provided unittest test suite and add to it. 
+
+### Run Tests:
+To run the tests, ensure you are in the folder 'LieselWong-CodingAssessment' and run python3 test_all_problems.py
+This will execute all the test cases defined and output the results to the console.
+
