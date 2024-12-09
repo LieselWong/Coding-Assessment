@@ -52,9 +52,8 @@ To run the tests, ensure you are in the folder `Coding-Assessment` and run `pyth
 
 ### Test Coverage:
   #### Problem 1 or linked_list.py tests: 
-  - **Test Append Function:**: Verifies that elements are correctly appended to the linked list in the proper order. This test ensures that after appending -10, 20, and -30, the linked list maintains the correct order.
-  - **Test Reverse Function:**: Tests that the reverse method correctly reverses the order of elements in the linked list. After appending 10, 20, and 30, the list should reverse to 30, 20, 10.
-  - **Test Reverse Function:**: Tests that the reverse method correctly reverses the order of elements in the linked list. After appending 10, 20, and 30, the list should reverse to 30, 20, 10.
+  - **Test Append Function:**: Verifies that positive and negative integers are correctly appended to the linked list in the proper order.
+  - **Test Reverse Function:**: Tests that the reverse method correctly reverses the order of elements in the linked list. 
   - **Test Large Numbers:**: Ensures the append function can handle very large numbers (e.g., 10^100) and correctly adds both positive and negative versions of this large number.
   - **Test Append Zero:** Confirms that zero (0) can be appended to the linked list, and the list should correctly reflect its presence.
 
