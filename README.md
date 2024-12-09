@@ -36,9 +36,10 @@ This project provides the implementation and testing for two problems:
 returns an empty singly linked list with the following attributes: <br> 
 <br> 
 <b> head </b> <br> 
-First object in list. _None_ if list is empty <br> 
+- First object in list. _None_ if list is empty <br>
+<br> 
 <b> tail </b> <br> 
-Last object in list. _None_ if list is empty <br> 
+- Last object in list. _None_ if list is empty <br> 
 
 ### Problem 2: Most Common Words
 
