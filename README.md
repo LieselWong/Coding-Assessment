@@ -51,13 +51,13 @@ To ensure the correct functionality of your code, use the provided unittest test
 To run the tests, ensure you are in the folder `Coding-Assessment` and run `python3 test_all_problems.py`
 
 ### Test Coverage:
-  #### Problem 1 or linked_list.py tests: 
+  #### `linked_list.py` tests: 
   - **Test Append Function:**: Verifies that positive and negative integers are correctly appended to the linked list in the proper order.
   - **Test Reverse Function:**: Tests that the reverse method correctly reverses the order of elements in the linked list. 
   - **Test Large Numbers:**: Ensures the append function can handle very large numbers (e.g., 10^100) and correctly adds both positive and negative versions of this large number.
   - **Test Append Zero:** Confirms that zero (0) can be appended to the linked list, and the list should correctly reflect its presence.
 
-  #### Problem 2 or most_common_word.py tests: 
+  #### `most_common_word.py` tests: 
   - **Basic Paragraph:** Tests whether the top 5 words are correctly extracted from a basic paragraph.
   - **Single Word Repeated:** Tests whether a paragraph with a repeated word returns the correct count for that word.
   - **Paragraph with Punctuation:** Verifies that punctuation is correctly removed from the paragraph.
