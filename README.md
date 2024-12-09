@@ -42,7 +42,7 @@ Returns an empty singly linked list with the following attributes:
 
 The LinkedList class also supports the following methods: 
 - **append(integer x)**
-  Add integer x to the right side of the list 
+  Add integer x to the right side of the list. Returns a `ValueError` if x is not an integer. 
 
 - **print_list**  
   Print out the list from head to tail with `->` denoting connections between elements
