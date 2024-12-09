@@ -42,6 +42,16 @@ Returns an empty singly linked list with the following attributes:
 - **tail**  
   The last object in the list. `_None_` if the list is empty.
 
+The LinkedList class also supports the following methods: 
+- **append(integer x)**
+  Add integer x to the right side of the list 
+
+- **print_list**  
+  Print out the list from head to tail with `->` denoting connections between elements
+
+- **reverse**  
+  Reverses the order of nodes in the linked list, updating the `head` to the last node and the `tail` to the first node.
+
 
 ### Problem 2: Most Common Words
 
