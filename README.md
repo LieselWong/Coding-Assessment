@@ -41,7 +41,7 @@ Returns an empty singly linked list with the following attributes:
   The last object in the list. `_None_` if the list is empty.
 
 The LinkedList class also supports the following methods: 
-- **append(integer x)**
+- **append(integer x)** <br>
   Add integer x to the right side of the list. Returns a `ValueError` if x is not an integer. 
 
 - **print_list**  
