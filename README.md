@@ -47,6 +47,6 @@ print(top_5_words)
 To ensure the correct functionality of your code, use the provided unittest test suite and add to it. 
 
 ### Run Tests:
-To run the tests, ensure you are in the folder `LieselWong-CodingAssessment` and run `python3 test_all_problems.py`
+To run the tests, ensure you are in the folder `Coding-Assessment` and run `python3 test_all_problems.py`
 This will execute all the test cases defined and output the results to the console.
 
