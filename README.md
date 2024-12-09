@@ -1,15 +1,5 @@
 # Project: Reverse a Linked List and Word Frequency Analysis
 
-This project provides the implementation and testing for two problems:
-
-### Problem 1: Reverse a Linked List
-- **File**: `linked_list.py`
-- **Description**: Given a linked list with integer values, reverse the linked list and print out the reversed result.
-
-### Problem 2: Most Common Words
-- **File**: `most_common_words.py`
-- **Description**: Given a paragraph of any size, find the top 5 most common words in the paragraph and print the passage along with the list of top 5 words.
-
 ## Project Structure
 
 - **`most_common_words.py`**: Contains the implementation to return the top 5 most common words from a paragraph.
@@ -28,8 +18,28 @@ This project provides the implementation and testing for two problems:
 
 1. Ensure that **Python 3.x** is installed on your system.
 
+## Purpose
+
+This project provides the implementation and testing for two problems:
+
+### Problem 1: Reverse a Linked List
+- **File**: `linked_list.py`
+- **Description**: Given a linked list with integer values, reverse the linked list and print out the reversed result.
+
+### Problem 2: Most Common Words
+- **File**: `most_common_words.py`
+- **Description**: Given a paragraph of any size, find the top 5 most common words in the paragraph and print the passage along with the list of top 5 words.
 
 ## Usage Instructions
+### Problem 1: Reverse a Linked List
+`class LinkedList()`
+returns an empty singly linked list with the following attributes: 
+<b> head </b> 
+  First object in list. _None_ if list is empty
+<b> tail </b> 
+  Last object in list. _None_ if list is empty
+
+### Problem 2: Most Common Words
 
 To find the top 5 most common words in a paragraph, you can use the `get_top_5_words()` function.
 
@@ -42,7 +52,6 @@ paragraph = "Python is an interpreted high-level programming language..."
 top_5_words = get_top_5_words(paragraph)
 print(top_5_words)
 ```
-
 
 ## Testing Instructions
 To ensure the correct functionality of your code, use the provided unittest test suite and add to it. This test suite will output the results to the console.
