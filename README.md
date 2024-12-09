@@ -34,6 +34,7 @@ This project provides the implementation and testing for two problems:
 ### Problem 1: Reverse a Linked List
 `class LinkedList()` <br> 
 returns an empty singly linked list with the following attributes: <br> 
+<br> 
 <b> head </b> <br> 
 First object in list. _None_ if list is empty <br> 
 <b> tail </b> <br> 
